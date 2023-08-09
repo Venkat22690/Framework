@@ -1,8 +1,10 @@
-package samplePackage;
+package TestCodePackage;
 
 import org.json.simple.JSONObject;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
 import static io.restassured.RestAssured.*;
 
 import java.text.SimpleDateFormat;
@@ -16,7 +18,7 @@ import io.restassured.response.ResponseBody;
 import io.restassured.specification.RequestSpecification;
 
 
-public class MainClass {
+public class APIMethods {
 	
 	static String auth_token;
 	static String AccountId;
@@ -458,26 +460,7 @@ public class MainClass {
 	}
 	
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-			System.out.println("******* Test Execution Started *******");
-
-		 	AccessToken();
-		 	AddNewCustomer();
-			ListCustomer();
-			NewPlans();
-		 	GetPlans();
-			NewMessage();
-			GetMessage();
-			GetPlanDocument();
-			GetOptimizations();
-			GetPlanQuestionnaire();
-			UpdatePlanResponse();
-			AddSubscription();
-			
-		 	System.out.println("******* Test Execution Completed *******");
-		
-	}
+	// public static void main(String[] args) {
+	
 
 }
