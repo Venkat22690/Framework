@@ -11,10 +11,10 @@ name: Java CI with Maven
 on:
   # push:
    # branches: [ "master" ]
-  # pull_request:
-   # branches: [ "master" ]
-  schedule: ## Schedule the job to run at every 10 minutes.
-    - cron: '*/10 * * * *'
+  pull_request:
+    branches: [ "master" ] 
+ # schedule: ## Schedule the job to run at every 10 minutes.
+  #  - cron: '*/10 * * * *'
   
 jobs:
   build:
