@@ -13,8 +13,8 @@ on:
    # branches: [ "master" ]
   pull_request:
     branches: [ "master" ] 
-  schedule: ## Schedule the job to run at every 10 minutes.
-    - cron: '*/5 * * * *'
+  # schedule: ## Schedule the job to run at every 10 minutes.
+  #  - cron: '*/5 * * * *'
   
 jobs:
   build:
