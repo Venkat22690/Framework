@@ -16,7 +16,7 @@ public class TestMainClass extends APIMethods{
 			System.out.println("******* Test Execution Started *******");
 			
 		 	AccessToken();
-		 	/* AddNewCustomer();
+		 	AddNewCustomer();
 			ListCustomer();
 			NewPlans();
 		 	GetPlans();
@@ -26,8 +26,8 @@ public class TestMainClass extends APIMethods{
 			GetOptimizations();
 			GetPlanQuestionnaire();
 			UpdatePlanResponse();
-			AddSubscription(); */
-			AssertionCalling(); 
+			AddSubscription();
+			AssertionCalling();
 			
 		 	System.out.println("******* Test Execution Completed *******");
 		
