@@ -6,14 +6,15 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: Ocho API Automation
 
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
+  # pull_request:
+   # branches: [ "master" ]
+  schedule: ## Schedule the job to run at every 5 minutes.
+   - cron: '0 15 * * 1-5'
 jobs:
   build:
 
