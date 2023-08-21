@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="OCHO API Automation(failed)">
+    <classes>
+      <class name="RunnerPackage.TestMainClass">
+        <methods>
+          <include name="MainMethod"/>
+        </methods>
+      </class> <!-- RunnerPackage.TestMainClass -->
+    </classes>
+  </test> <!-- OCHO API Automation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
