@@ -9,12 +9,12 @@
 name: API Automation Uprise - Ocho
 
 on:
-   push:
-    branches: [ "master" ]
+  # push:
+   # branches: [ "master" ]
   # pull_request:
    # branches: [ "master" ] 
-  # schedule: ## Schedule the job to run at every 10 minutes.
-  #  - cron: '*/5 * * * *'
+   schedule: ## Schedule the job to run at every 5 minutes.
+   - cron: '*/5 * * * *'
   
 jobs:
   build:
