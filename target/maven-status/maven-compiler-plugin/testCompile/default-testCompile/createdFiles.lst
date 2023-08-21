@@ -1,2 +1,3 @@
-TestCodePackage\APIMethods.class
-TestCodePackage\TestMainClass.class
+Pages\APIMethods.class
+RunnerPackage\TestMainClass.class
+StepDefinition\stepDefinition.class
